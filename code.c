@@ -10,7 +10,7 @@
 #define F_CPU 8000000
 #include <util/delay.h>
 #include <string.h>
-//defing the value globaly
+//defining the value globally
 #define RS 0
 #define RW 1
 #define EN 2
