@@ -29,7 +29,7 @@ int main(void)
 	UBRRL=51;
 	UCSRB=0X18;
 	UCSRC=0X86;
-	displayv("PRESS T FOR ON OR OFF LCD\r");
+	displayv("PRESS T FOR ON OR OFF LCD\r"); 
 	displayv("PRESS L FOR ON OR OFF LED\r");
 	displayv("PRESS F FOR ON OR OFF FAN\r");
     while(1)
@@ -157,6 +157,7 @@ void intprint(int x)
 	x%=10;
 	data(x+48);
 }
+#display the test 
 void displayv(char s[])
 {
 	
